@@ -13,4 +13,4 @@ This is a brand new project and features are subject to change
 * syntax highlighting
 
 ## Install
-Simply source `lean4.kak` in your kakrc and keep `lean4-replace-abbreviations.py` in your config directory.
+Simply source `lean4.kak` in your kakrc and keep both `lean4-replace-abbreviations.py` and `abbreviations.json` in your config directory.
