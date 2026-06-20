@@ -1,22 +1,18 @@
 # lean4.kak
 
-This is a brand new project, features and dependencies are subject to change.
-
 ## Dependencies
 
-* `kakoune-lsp` - version `18.2.0-snapshot` https://github.com/kakoune-lsp/kakoune-lsp
+* `kakoune-lsp`
 * `python3`
 
 ## Features
-* LSP Features - handled automatically by `kakoune-lsp`
-* Infoview - lean goal information goes to infoview buffers
-* LaTeX Input - modify `abbreviations.json` for custom abbreviations
-* Syntax Highlighting - minimal regex highlighting to pair with lsp semantic tokens
+* Infoview - Lean goal information goes to an infoview buffer
+* Unicode Input - Expands abbreviations with a python script. Modify `abbreviations.json` for custom abbreviations
+* Syntax Highlighting - Minimal regex highlighting paired with lsp semantic tokens
 
 ## Install
-Make sure to setup kak-lsp before sourcing `lean4.kak`.
-
-Source `lean4.kak` in your kakrc and keep both `lean4-replace-abbreviations.py` and `abbreviations.json` in your config directory.
+Setup kak-lsp before sourcing `lean4.kak`.
+Keep both `lean4-expand-abbrevs.py` and `abbreviations.json` in your config directory.
 
 ## Semantic Tokens
 To use semantic tokens, add the following to your `kakrc`.
